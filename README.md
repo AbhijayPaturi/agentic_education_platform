@@ -1,6 +1,7 @@
 # 🎓 Agentic Education Platform
 
 > **Production-grade multi-agent system for personalized curriculum generation using CrewAI**
+> **Fun Fact: Used these learning modules to learn how to DJ for my friends this summer**
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Core Coverage](https://img.shields.io/badge/core%20coverage-98%25-brightgreen.svg)](./TEST_COVERAGE_REPORT.md)
