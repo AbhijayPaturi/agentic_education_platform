@@ -1,0 +1,210 @@
+{
+  "topic": "Core Generative Models: GANs, VAEs, and Diffusion Models",
+  "quiz_type": "summative",
+  "total_points": 80,
+  "time_limit_minutes": 60,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "multiple_choice",
+      "question": "What is the primary goal of generative modeling?",
+      "options": [
+        "To classify data into distinct categories",
+        "To learn data distributions in order to create realistic new samples",
+        "To reduce the dimensionality of large datasets",
+        "To optimize reinforcement learning policies"
+      ],
+      "correct_answer": "To learn data distributions in order to create realistic new samples",
+      "explanation": "Generative modeling aims to understand and capture the underlying distribution of data to generate new, realistic samples that reflect that distribution.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand the fundamental purpose of generative modeling"
+    },
+    {
+      "question_number": 2,
+      "question_type": "multiple_choice",
+      "question": "In a Generative Adversarial Network (GAN), what roles do the two neural networks play?",
+      "options": [
+        "Encoder and Decoder",
+        "Generator creates fake samples, Discriminator distinguishes real from fake samples",
+        "Both networks generate samples independently",
+        "Both networks serve as discriminators for different datasets"
+      ],
+      "correct_answer": "Generator creates fake samples, Discriminator distinguishes real from fake samples",
+      "explanation": "GANs consist of two networks: the Generator synthesizes data resembling real samples, while the Discriminator learns to differentiate between real and generated data, driving adversarial learning.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Explain the roles of generator and discriminator in GANs"
+    },
+    {
+      "question_number": 3,
+      "question_type": "true_false",
+      "question": "Mode collapse in GANs refers to the generator producing a limited variety of outputs, failing to capture full data diversity.",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "Mode collapse occurs when the GAN generator repeatedly outputs similar or identical samples, indicating poor coverage of the data distribution's modes.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Identify key challenges in GAN training"
+    },
+    {
+      "question_number": 4,
+      "question_type": "multiple_choice",
+      "question": "Which of the following best describes the Evidence Lower Bound (ELBO) objective optimized by Variational Autoencoders (VAEs)?",
+      "options": [
+        "Maximizing reconstruction accuracy without regularization",
+        "A trade-off between data reconstruction loss and KL divergence between approximate posterior and prior",
+        "Minimizing discriminator loss against generator samples",
+        "Maximizing the variance of latent variables"
+      ],
+      "correct_answer": "A trade-off between data reconstruction loss and KL divergence between approximate posterior and prior",
+      "explanation": "ELBO balances reconstructing data well (likelihood term) with regularizing the latent space distribution (KL divergence), enabling meaningful latent representations.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand the VAE objective function and its components"
+    },
+    {
+      "question_number": 5,
+      "question_type": "multiple_choice",
+      "question": "What is the main purpose of the reparameterization trick in VAEs?",
+      "options": [
+        "To increase the capacity of the decoder network",
+        "To enable gradient backpropagation through stochastic latent variable sampling",
+        "To speed up data preprocessing",
+        "To make the discriminator more powerful"
+      ],
+      "correct_answer": "To enable gradient backpropagation through stochastic latent variable sampling",
+      "explanation": "The reparameterization trick expresses latent variable sampling as a differentiable transformation, allowing gradients to flow and the VAE to be trained end-to-end efficiently.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Explain the importance and mechanism of the reparameterization trick in VAEs"
+    },
+    {
+      "question_number": 6,
+      "question_type": "multiple_choice",
+      "question": "How do diffusion models generate new data samples?",
+      "options": [
+        "By directly mapping noise to data in a single forward pass",
+        "By iteratively adding noise followed by learned denoising steps in reverse",
+        "Using adversarial loss to fool a discriminator network",
+        "By encoding data into latent variables and decoding them"
+      ],
+      "correct_answer": "By iteratively adding noise followed by learned denoising steps in reverse",
+      "explanation": "Diffusion models first define a forward noising process that gradually corrupts data, then learn a reverse denoising process to reconstruct data from noise through multiple iterative steps.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Describe the core generation process in diffusion models"
+    },
+    {
+      "question_number": 7,
+      "question_type": "true_false",
+      "question": "Training a GAN is generally considered easier and more stable compared to diffusion models and VAEs.",
+      "options": null,
+      "correct_answer": "False",
+      "explanation": "GANs are known for training instability issues like mode collapse and oscillations, whereas diffusion models tend to have more stable training albeit slower generation.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Compare training difficulties across GANs, VAEs, and diffusion models"
+    },
+    {
+      "question_number": 8,
+      "question_type": "multiple_choice",
+      "question": "Which metric is commonly used to evaluate GANs by quantifying the quality and diversity of generated images?",
+      "options": [
+        "BLEU score",
+        "Fréchet Inception Distance (FID)",
+        "Cross entropy loss",
+        "Mean squared error (MSE)"
+      ],
+      "correct_answer": "Fréchet Inception Distance (FID)",
+      "explanation": "FID measures the distance between feature distributions of real and generated images to assess both quality and diversity, widely used for GAN evaluation.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Identify evaluation metrics relevant to GANs"
+    },
+    {
+      "question_number": 9,
+      "question_type": "short_answer",
+      "question": "Briefly explain the difference in latent space structure between VAEs and GANs.",
+      "options": null,
+      "correct_answer": "VAEs have a smooth, continuous, and probabilistically regularized latent space, whereas GANs do not explicitly enforce latent space structure.",
+      "explanation": "VAEs use KL divergence regularization encouraging a well-structured latent space enabling interpolation and meaningful sampling; GANs focus on producing realistic outputs without constrained latent distributions.",
+      "difficulty": "Hard",
+      "learning_objective_tested": "Analyze structural differences in latent representation across generative models"
+    },
+    {
+      "question_number": 10,
+      "question_type": "multiple_choice",
+      "question": "Which statement correctly characterizes diffusion models compared to GANs and VAEs?",
+      "options": [
+        "Diffusion models generate samples faster than GANs",
+        "Diffusion models rely heavily on adversarial training",
+        "Diffusion models optimize likelihood with iterative denoising, offering stable training but slower generation",
+        "Diffusion models do not use neural networks"
+      ],
+      "correct_answer": "Diffusion models optimize likelihood with iterative denoising, offering stable training but slower generation",
+      "explanation": "Diffusion models maximize a tractable likelihood through gradual denoising steps, providing stable training and high-quality samples, although sampling is computationally intensive compared to one-shot GAN/VAEs.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Compare key characteristics of diffusion models with GANs and VAEs"
+    },
+    {
+      "question_number": 11,
+      "question_type": "multiple_choice",
+      "question": "In the GAN objective function min_G max_D V(D, G), what does the generator try to minimize?",
+      "options": [
+        "Discriminator’s accuracy in detecting real data",
+        "The probability that the discriminator correctly classifies fake data as fake",
+        "The log probability that the discriminator classifies generated data as real",
+        "The KL divergence between generated and data distributions"
+      ],
+      "correct_answer": "The log probability that the discriminator classifies generated data as real",
+      "explanation": "The generator aims to minimize the discriminator’s ability to distinguish generated fake samples from real, effectively minimizing the log(1 - D(G(z))) or maximizing log D(G(z)) in some variants.",
+      "difficulty": "Hard",
+      "learning_objective_tested": "Understand adversarial training objectives in GANs"
+    },
+    {
+      "question_number": 12,
+      "question_type": "true_false",
+      "question": "The reparameterization trick helps VAEs avoid the problem of non-differentiable sampling operations during training.",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "Because sampling from a distribution is a stochastic operation, it blocks gradient flow; the reparameterization trick reformulates sampling to allow differentiation and backpropagation.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Explain the function of the reparameterization trick in enabling VAE training"
+    },
+    {
+      "question_number": 13,
+      "question_type": "short_answer",
+      "question": "Describe one advantage and one disadvantage of diffusion models compared to GANs.",
+      "options": null,
+      "correct_answer": "Advantage: diffusion models train more stably and maximize likelihood, producing diverse high-fidelity samples. Disadvantage: sampling is much slower due to iterative denoising steps.",
+      "explanation": "Diffusion models avoid adversarial training issues, yielding reliable generation quality, but their iterative process requires more computation time than GANs’ one-step generation.",
+      "difficulty": "Hard",
+      "learning_objective_tested": "Critically evaluate strengths and weaknesses of diffusion models relative to GANs"
+    },
+    {
+      "question_number": 14,
+      "question_type": "multiple_choice",
+      "question": "Hybrid generative models such as VAE-GANs aim to:",
+      "options": [
+        "Combine GANs’ sharp image synthesis with VAEs’ probabilistic latent space",
+        "Simplify the diffusion model's sampling process",
+        "Replace backpropagation with reinforcement learning",
+        "Eliminate the need for a discriminator network"
+      ],
+      "correct_answer": "Combine GANs’ sharp image synthesis with VAEs’ probabilistic latent space",
+      "explanation": "VAE-GAN hybrids seek to leverage VAEs’ latent structure and likelihood-based learning with GANs’ ability to produce sharper, more realistic outputs, balancing quality and regularization.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Recognize motivations behind combining generative model architectures"
+    },
+    {
+      "question_number": 15,
+      "question_type": "multiple_choice",
+      "question": "What role does score matching play in the training of diffusion models?",
+      "options": [
+        "It trains the discriminator to improve generator quality",
+        "It helps to estimate gradients of the data log-density to learn denoising",
+        "It optimizes the KL divergence between latent distributions",
+        "It encodes latent variables for efficient sampling"
+      ],
+      "correct_answer": "It helps to estimate gradients of the data log-density to learn denoising",
+      "explanation": "Score matching enables the diffusion model to learn the gradient (score) of the data distribution’s log-probability, guiding the reverse denoising to generate high-quality samples.",
+      "difficulty": "Hard",
+      "learning_objective_tested": "Explain the mathematical foundation of score matching in diffusion models"
+    }
+  ],
+  "passing_score": 70,
+  "study_tips": "Review the core concepts and architectures of GANs, VAEs, and Diffusion models, focusing on their generation processes, objectives, and training challenges. Pay attention to understanding key terms like mode collapse, ELBO, reparameterization trick, and score matching. Study diagrams illustrating architecture and sampling flows and practice explaining differences and trade-offs between models. Reviewing implementation snippets will help connect theory to practice. Finally, test yourself by summarizing advantages and disadvantages to deepen comparative insight."
+}

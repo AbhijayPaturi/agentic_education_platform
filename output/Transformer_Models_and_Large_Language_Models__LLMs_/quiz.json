@@ -1,0 +1,135 @@
+{
+  "topic": "Effective Communication Skills",
+  "quiz_type": "formative",
+  "total_points": 50,
+  "time_limit_minutes": 30,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "multiple_choice",
+      "question": "What is the primary purpose of effective communication in a team?",
+      "options": [
+        "To express individual opinions only",
+        "To share information and coordinate efforts",
+        "To avoid conflicts at all costs",
+        "To ensure one person makes all decisions"
+      ],
+      "correct_answer": "To share information and coordinate efforts",
+      "explanation": "Effective communication helps share information and coordinate efforts within a team, leading to better collaboration and success.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand the purpose of effective communication"
+    },
+    {
+      "question_number": 2,
+      "question_type": "true_false",
+      "question": "Active listening means waiting for your turn to speak rather than fully concentrating on the speaker.",
+      "options": null,
+      "correct_answer": "False",
+      "explanation": "Active listening involves fully concentrating on what the speaker is saying, rather than just waiting for your turn to speak.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand active listening"
+    },
+    {
+      "question_number": 3,
+      "question_type": "multiple_choice",
+      "question": "Which of the following is a barrier to effective communication?",
+      "options": [
+        "Clarity",
+        "Noise",
+        "Feedback",
+        "Understanding"
+      ],
+      "correct_answer": "Noise",
+      "explanation": "Noise, whether physical or psychological, can interfere with the transmission and reception of messages, acting as a communication barrier.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Identify barriers to communication"
+    },
+    {
+      "question_number": 4,
+      "question_type": "short_answer",
+      "question": "Name one non-verbal communication cue that can convey confidence.",
+      "options": null,
+      "correct_answer": "Eye contact",
+      "explanation": "Maintaining eye contact is a common non-verbal cue that conveys confidence during communication.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Recognize non-verbal communication cues"
+    },
+    {
+      "question_number": 5,
+      "question_type": "multiple_choice",
+      "question": "What does 'feedback' in communication refer to?",
+      "options": [
+        "Ignoring the message",
+        "A response to a message",
+        "Sending a new message",
+        "Stopping the conversation"
+      ],
+      "correct_answer": "A response to a message",
+      "explanation": "Feedback is the receiver's response to the sender's message, which helps confirm understanding or indicate the need for clarification.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand feedback in communication"
+    },
+    {
+      "question_number": 6,
+      "question_type": "true_false",
+      "question": "Body language and facial expressions are forms of verbal communication.",
+      "options": null,
+      "correct_answer": "False",
+      "explanation": "Body language and facial expressions are forms of non-verbal communication, not verbal communication.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Differentiate verbal and non-verbal communication"
+    },
+    {
+      "question_number": 7,
+      "question_type": "multiple_choice",
+      "question": "Which communication channel is most effective for conveying complex information requiring immediate feedback?",
+      "options": [
+        "Email",
+        "Phone call",
+        "Text message",
+        "Bulletin board"
+      ],
+      "correct_answer": "Phone call",
+      "explanation": "Phone calls allow real-time interaction and immediate feedback, making them effective for conveying complex information.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Choose appropriate communication channels"
+    },
+    {
+      "question_number": 8,
+      "question_type": "short_answer",
+      "question": "What is one strategy to overcome language barriers in communication?",
+      "options": null,
+      "correct_answer": "Use simple language",
+      "explanation": "Using simple, clear language can help overcome language barriers by making the message easier to understand.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Apply strategies to overcome communication barriers"
+    },
+    {
+      "question_number": 9,
+      "question_type": "multiple_choice",
+      "question": "Which of the following is an example of an open-ended question?",
+      "options": [
+        "Do you like this product?",
+        "What do you think about this product?",
+        "Is this product available?",
+        "Have you used this product before?"
+      ],
+      "correct_answer": "What do you think about this product?",
+      "explanation": "Open-ended questions encourage detailed responses and discussion, unlike closed-ended questions that limit answers to yes/no or specific options.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Formulate effective questions"
+    },
+    {
+      "question_number": 10,
+      "question_type": "true_false",
+      "question": "Empathy plays a crucial role in effective interpersonal communication.",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "Empathy helps understand and relate to others' feelings, enhancing communication effectiveness and relationships.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand role of empathy in communication"
+    }
+  ],
+  "passing_score": 70,
+  "study_tips": "Review key concepts of effective communication, practice active listening, recognize communication barriers, and understand feedback mechanisms."
+}

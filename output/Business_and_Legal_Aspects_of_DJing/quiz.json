@@ -1,0 +1,200 @@
+{
+  "topic": "Business and Legal Knowledge for DJs",
+  "quiz_type": "summative",
+  "total_points": 100,
+  "time_limit_minutes": 60,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "multiple_choice",
+      "question": "Which business structure offers limited liability protection for DJs while allowing pass-through taxation?",
+      "options": [
+        "Sole Proprietorship",
+        "Partnership",
+        "Limited Liability Company (LLC)",
+        "Corporation"
+      ],
+      "correct_answer": "Limited Liability Company (LLC)",
+      "explanation": "LLCs provide limited liability protection for owners while allowing profits and losses to be passed through to owners' personal tax returns, avoiding double taxation.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand DJ business structures"
+    },
+    {
+      "question_number": 2,
+      "question_type": "true_false",
+      "question": "Registering a business name as a DBA (Doing Business As) protects the business name legally from being used by others.",
+      "options": null,
+      "correct_answer": "False",
+      "explanation": "A DBA registration allows a business to operate under a different name but does not provide exclusive trademark protection for that name.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand business naming and trademark basics"
+    },
+    {
+      "question_number": 3,
+      "question_type": "multiple_choice",
+      "question": "What is the primary purpose of a performance license for DJs?",
+      "options": [
+        "To allow use of copyrighted music publicly",
+        "To avoid paying taxes",
+        "To register the DJ as a business entity",
+        "To sell music tracks legally"
+      ],
+      "correct_answer": "To allow use of copyrighted music publicly",
+      "explanation": "A performance license permits the public performance of copyrighted music legally, which is essential for DJs playing music at events.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand music licensing requirements"
+    },
+    {
+      "question_number": 4,
+      "question_type": "short_answer",
+      "question": "Name one major performing rights organization (PRO) that DJs might need to work with.",
+      "options": null,
+      "correct_answer": "ASCAP (or BMI or SESAC)",
+      "explanation": "Major PROs like ASCAP, BMI, and SESAC manage performance rights and licensing for songwriters and publishers, which DJs must consider.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Identify major PROs for music licensing"
+    },
+    {
+      "question_number": 5,
+      "question_type": "multiple_choice",
+      "question": "Which tax form should a self-employed DJ typically use to report income?",
+      "options": [
+        "W-2",
+        "1099-MISC or 1099-NEC",
+        "Form 1040 Schedule C",
+        "Form SS-4"
+      ],
+      "correct_answer": "Form 1040 Schedule C",
+      "explanation": "Schedule C is used by self-employed individuals to report income and expenses from their business activities.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand tax filing for DJs"
+    },
+    {
+      "question_number": 6,
+      "question_type": "true_false",
+      "question": "Copyrighted music can be freely used by DJs at private parties without any license.",
+      "options": null,
+      "correct_answer": "False",
+      "explanation": "Even private events might require licenses depending on the size and nature of the event; public performance rights are controlled by copyright laws.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand copyright laws for music usage"
+    },
+    {
+      "question_number": 7,
+      "question_type": "multiple_choice",
+      "question": "What should a DJ include in a contract with a client to minimize legal disputes?",
+      "options": [
+        "Only payment terms",
+        "Performance details, payment terms, cancellation policy, and liability clauses",
+        "Venue address only",
+        "Client's tax ID only"
+      ],
+      "correct_answer": "Performance details, payment terms, cancellation policy, and liability clauses",
+      "explanation": "A clear contract should define services, payment, cancellation terms, and liabilities to protect both parties.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand DJ contract essentials"
+    },
+    {
+      "question_number": 8,
+      "question_type": "short_answer",
+      "question": "What is a common insurance type DJs purchase to protect against equipment damage or liability?",
+      "options": null,
+      "correct_answer": "General Liability Insurance",
+      "explanation": "General Liability Insurance covers legal and financial responsibilities related to injuries, damages, or accidents during DJ performances.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Identify common insurance for DJs"
+    },
+    {
+      "question_number": 9,
+      "question_type": "multiple_choice",
+      "question": "Which of the following is NOT a typical expense deductible for a DJ's business?",
+      "options": [
+        "Equipment purchases",
+        "Travel expenses for gigs",
+        "Personal groceries",
+        "Advertising costs"
+      ],
+      "correct_answer": "Personal groceries",
+      "explanation": "Personal groceries are personal expenses and not deductible business expenses.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand deductible expenses for DJs"
+    },
+    {
+      "question_number": 10,
+      "question_type": "true_false",
+      "question": "Using copyrighted music without permission can result in legal consequences for DJs.",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "Unauthorized use of copyrighted music can lead to fines, lawsuits, and damages.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand legal risks of copyright infringement"
+    },
+    {
+      "question_number": 11,
+      "question_type": "multiple_choice",
+      "question": "Which technology is commonly used by DJs to mix music live?",
+      "options": [
+        "Digital Audio Workstation (DAW)",
+        "DJ turntables and controllers",
+        "Amplifiers only",
+        "Microphones only"
+      ],
+      "correct_answer": "DJ turntables and controllers",
+      "explanation": "DJ turntables and controllers are specialized equipment for live mixing and performance.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand DJ equipment basics"
+    },
+    {
+      "question_number": 12,
+      "question_type": "short_answer",
+      "question": "What documentation should a DJ keep for tax and legal purposes?",
+      "options": null,
+      "correct_answer": "Invoices, receipts, contracts, and licenses",
+      "explanation": "Maintaining documentation like invoices, receipts, contracts, and licenses helps in legal compliance and tax reporting.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Manage DJ business documentation"
+    },
+    {
+      "question_number": 13,
+      "question_type": "multiple_choice",
+      "question": "Which intellectual property right protects a DJ's original music mixes?",
+      "options": [
+        "Patent",
+        "Trademark",
+        "Copyright",
+        "Trade Secret"
+      ],
+      "correct_answer": "Copyright",
+      "explanation": "Copyright protects original creative works including music mixes by DJs.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand intellectual property rights for DJs"
+    },
+    {
+      "question_number": 14,
+      "question_type": "true_false",
+      "question": "An LLC requires less administrative paperwork annually compared to a corporation.",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "LLCs generally have simpler administrative requirements and fewer formalities than corporations.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand business operation and compliance"
+    },
+    {
+      "question_number": 15,
+      "question_type": "multiple_choice",
+      "question": "If a DJ wants to protect their DJ name as a brand, what should they register?",
+      "options": [
+        "A business license",
+        "A DBA",
+        "A trademark",
+        "A domain name"
+      ],
+      "correct_answer": "A trademark",
+      "explanation": "Trademark registration provides legal protection for brand names, logos, or slogans to prevent others' unauthorized use.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand branding and trademark protection"
+    }
+  ],
+  "passing_score": 70,
+  "study_tips": "Review key business structures, licensing requirements, business documentation, and legal risks. Understand tax filing processes and contracts. Practice identifying key terms and legal definitions relevant to DJs."
+}

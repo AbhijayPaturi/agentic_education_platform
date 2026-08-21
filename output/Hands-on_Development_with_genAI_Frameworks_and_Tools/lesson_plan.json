@@ -1,0 +1,124 @@
+{
+  "topic": "Hands-on Development with genAI Frameworks and Tools",
+  "overview": "This topic provides a comprehensive, practical introduction to generative AI (genAI) frameworks and tools, focusing on hands-on development skills. Students will learn how to set up, configure, and use popular genAI frameworks to build, fine-tune, and deploy generative AI models. It covers foundational concepts of generative AI, the architecture of various frameworks, and practical coding exercises to develop applications such as text generation, image synthesis, and multimodal AI.\n\nThrough progressive lessons, learners will explore common development environments and toolkits, understand best practices for training and optimizing genAI models, and gain experience integrating AI components into real-world solutions. The course balances conceptual underpinnings with applied programming techniques, enabling motivated learners to advance from foundational knowledge to creating their own generative AI projects with confidence.",
+  "learning_objectives": [
+    {
+      "objective": "Explain the fundamental concepts and workflows of generative AI frameworks",
+      "blooms_level": "Understand"
+    },
+    {
+      "objective": "Set up and configure genAI development environments and tools",
+      "blooms_level": "Apply"
+    },
+    {
+      "objective": "Develop and fine-tune generative AI models using popular frameworks",
+      "blooms_level": "Create"
+    },
+    {
+      "objective": "Analyze and evaluate model performance and optimization methods",
+      "blooms_level": "Analyze"
+    },
+    {
+      "objective": "Integrate generative AI components into functional applications",
+      "blooms_level": "Apply"
+    }
+  ],
+  "lessons": [
+    {
+      "lesson_number": 1,
+      "title": "Introduction to Generative AI Frameworks and Tools",
+      "learning_objective": "Explain the fundamental concepts and workflows of generative AI frameworks",
+      "key_concepts": [
+        "Overview of generative AI and its applications",
+        "Popular genAI frameworks (e.g., Hugging Face Transformers, OpenAI SDK, TensorFlow, PyTorch)",
+        "Typical development workflows for genAI projects",
+        "Hardware and software requirements",
+        "Ethical considerations in generative AI"
+      ],
+      "duration_minutes": 60,
+      "teaching_approach": "Lecture with interactive discussion and demonstration of genAI applications; introduce students to the framework landscape using multimedia examples",
+      "resources_needed": [
+        "Presentation slides",
+        "Example AI-generated content",
+        "Internet access for live demos"
+      ]
+    },
+    {
+      "lesson_number": 2,
+      "title": "Setting Up the genAI Development Environment",
+      "learning_objective": "Set up and configure genAI development environments and tools",
+      "key_concepts": [
+        "Installing Python and package managers",
+        "Setting up virtual environments",
+        "Installing genAI libraries (e.g., transformers, diffusers, OpenAI SDK)",
+        "Using GPUs and cloud environments",
+        "Version control and dependency management"
+      ],
+      "duration_minutes": 75,
+      "teaching_approach": "Guided hands-on lab where learners will install and configure software, set up virtual environments, and run a simple pretrained model inference",
+      "resources_needed": [
+        "Computers with internet",
+        "Installation guides",
+        "Preconfigured cloud resources (optional)"
+      ]
+    },
+    {
+      "lesson_number": 3,
+      "title": "Building and Fine-Tuning genAI Models",
+      "learning_objective": "Develop and fine-tune generative AI models using popular frameworks",
+      "key_concepts": [
+        "Loading pretrained models and tokenizers",
+        "Fine-tuning techniques and custom datasets",
+        "Training loops and hyperparameter tuning",
+        "Handling different data modalities (text, images)",
+        "Debugging and error handling during training"
+      ],
+      "duration_minutes": 90,
+      "teaching_approach": "Hands-on coding workshop where learners run training scripts to fine-tune a text generation model and experiment with parameters",
+      "resources_needed": [
+        "Sample datasets",
+        "Jupyter notebooks or IDE",
+        "GPU access"
+      ]
+    },
+    {
+      "lesson_number": 4,
+      "title": "Evaluating and Optimizing genAI Model Performance",
+      "learning_objective": "Analyze and evaluate model performance and optimization methods",
+      "key_concepts": [
+        "Evaluation metrics for generative AI (perplexity, BLEU, FID)",
+        "Techniques for model compression and optimization",
+        "Handling overfitting and underfitting",
+        "Interpreting model outputs and failures",
+        "Benchmarking against baseline models"
+      ],
+      "duration_minutes": 60,
+      "teaching_approach": "Case study analysis combined with practical exercises evaluating model outputs and applying optimization techniques",
+      "resources_needed": [
+        "Evaluation scripts",
+        "Performance visualization tools"
+      ]
+    },
+    {
+      "lesson_number": 5,
+      "title": "Integrating genAI Models into Applications",
+      "learning_objective": "Integrate generative AI components into functional applications",
+      "key_concepts": [
+        "APIs and deployment frameworks",
+        "Building simple interfaces (command line, web apps)",
+        "Model serving and scaling strategies",
+        "Handling inference latency and failures",
+        "Ethical deployment and user experience considerations"
+      ],
+      "duration_minutes": 90,
+      "teaching_approach": "Project-based lesson where learners create a basic app that uses a genAI model to generate content on user input, followed by peer review",
+      "resources_needed": [
+        "Cloud platform accounts (e.g., AWS, Azure, or Heroku)",
+        "Web development tools",
+        "API keys for genAI services"
+      ]
+    }
+  ],
+  "assessment_strategy": "Learners will complete practical assignments including environment setup, model fine-tuning, and deployment projects. Assessment includes code reviews, functionally testing generated outputs, and reflective write-ups analyzing model performance and ethical implications. A final project will require students to create and deploy a generative AI application showcasing the integration of learned tools and techniques.",
+  "estimated_total_time": 375
+}

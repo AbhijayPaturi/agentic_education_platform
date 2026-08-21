@@ -1,0 +1,200 @@
+{
+  "topic": "Live Performance Skills and Crowd Reading",
+  "quiz_type": "summative",
+  "total_points": 80,
+  "time_limit_minutes": 60,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "multiple_choice",
+      "question": "Which of the following is NOT a fundamental principle of live performance as presented in the lesson?",
+      "options": [
+        "Stage Presence and Body Language",
+        "Vocal Projection and Clarity",
+        "Use of pre-recorded background music",
+        "Energy Management"
+      ],
+      "correct_answer": "Use of pre-recorded background music",
+      "explanation": "The lesson outlines stage presence, vocal projection, and energy management as fundamental principles, but does not list the use of pre-recorded background music as one.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Identify core principles of effective live performance"
+    },
+    {
+      "question_number": 2,
+      "question_type": "multiple_choice",
+      "question": "What role does body language play in live performance?",
+      "options": [
+        "It acts as a silent dialogue conveying emotion and intent.",
+        "It distracts the audience from the spoken message.",
+        "It is less important than vocal clarity.",
+        "It should be minimized to avoid confusion."
+      ],
+      "correct_answer": "It acts as a silent dialogue conveying emotion and intent.",
+      "explanation": "Body language communicates nonverbal messages that complement and enhance the performer’s spoken words, engaging the audience emotionally.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Understand the significance of stage presence and body language"
+    },
+    {
+      "question_number": 3,
+      "question_type": "multiple_choice",
+      "question": "Why is eye contact with different zones of the audience an effective engagement technique?",
+      "options": [
+        "It helps the performer remember their script.",
+        "It fosters a sense of connection and inclusiveness among audience members.",
+        "It intimidates the audience into paying attention.",
+        "It reduces the need for vocal projection."
+      ],
+      "correct_answer": "It fosters a sense of connection and inclusiveness among audience members.",
+      "explanation": "Making eye contact in various sections helps the audience feel personally recognized, increasing trust and attentiveness.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Apply techniques to engage and maintain audience attention"
+    },
+    {
+      "question_number": 4,
+      "question_type": "true_false",
+      "question": "Monitoring audience facial expressions and body language during a live performance helps the performer adapt their delivery in real-time.",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "Continuous observation of nonverbal audience feedback allows the performer to adjust tone, pace, and content dynamically to maintain engagement.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Recognize the importance of real-time crowd reading"
+    },
+    {
+      "question_number": 5,
+      "question_type": "multiple_choice",
+      "question": "If the audience appears visibly tired and disengaged, what is an appropriate performer adaptation?",
+      "options": [
+        "Increase energy and volume to re-energize them.",
+        "Ignore the signs and continue as planned.",
+        "Slow down and speak more quietly.",
+        "Exit the stage immediately."
+      ],
+      "correct_answer": "Increase energy and volume to re-energize them.",
+      "explanation": "Raising energy and vocal intensity can help revitalize an exhausted crowd, improving overall engagement.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Adapt performance dynamically based on crowd cues"
+    },
+    {
+      "question_number": 6,
+      "question_type": "multiple_choice",
+      "question": "Which of the following is NOT a recommended strategy when managing unexpected negative audience behaviors like heckling?",
+      "options": [
+        "Stay calm and composed",
+        "Use humor or acknowledgment to ease tension",
+        "React with hostility to discourage interruptions",
+        "Redirect focus positively to regain control"
+      ],
+      "correct_answer": "React with hostility to discourage interruptions",
+      "explanation": "Responding with hostility usually escalates issues. Staying calm and positively redirecting the audience helps maintain a controlled environment.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand strategies for managing unexpected audience behaviors"
+    },
+    {
+      "question_number": 7,
+      "question_type": "multiple_choice",
+      "question": "What does 'energy management' in live performance primarily involve?",
+      "options": [
+        "Using lighting effects to enhance mood",
+        "Balancing the performer’s intensity to maintain stamina and engagement",
+        "Minimizing movement to conserve energy",
+        "Increasing volume constantly to excite the crowd"
+      ],
+      "correct_answer": "Balancing the performer’s intensity to maintain stamina and engagement",
+      "explanation": "Energy management is about pacing the performer’s delivery to sustain enthusiasm without exhaustion throughout the event.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Explain the components of energy management in live performance"
+    },
+    {
+      "question_number": 8,
+      "question_type": "short_answer",
+      "question": "List two nonverbal audience cues that a performer can monitor to gauge audience engagement.",
+      "options": null,
+      "correct_answer": "Examples include smiles, nods, posture shifts, facial expressions.",
+      "explanation": "Nonverbal cues like these provide insights into how the audience is responding emotionally and attentively to the performance.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Identify audience nonverbal cues for crowd reading"
+    },
+    {
+      "question_number": 9,
+      "question_type": "multiple_choice",
+      "question": "Why is developing a personalized improvement plan important for live performers?",
+      "options": [
+        "It allows performers to focus solely on memorizing lines.",
+        "It helps create a structured process for ongoing growth and skill development.",
+        "It eliminates the need for audience feedback.",
+        "It guarantees immediate success without practice."
+      ],
+      "correct_answer": "It helps create a structured process for ongoing growth and skill development.",
+      "explanation": "A personalized plan guides practice with clear goals, reflection, and adaptation, which is vital for continuous performance enhancement.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Understand the value of goal setting and continuous improvement"
+    },
+    {
+      "question_number": 10,
+      "question_type": "true_false",
+      "question": "Pacing and timing techniques, such as strategic pauses, help in maintaining the audience’s attention during a performance.",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "Using pacing and thoughtful timing engages the audience by creating anticipation and emphasizing key points.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Apply pacing and timing techniques to sustain audience engagement"
+    },
+    {
+      "question_number": 11,
+      "question_type": "multiple_choice",
+      "question": "In the context of crowd dynamics, what does restless audience movement typically indicate?",
+      "options": [
+        "High enthusiasm and engagement",
+        "Fatigue or discomfort",
+        "Complete understanding of the content",
+        "Audience agreement"
+      ],
+      "correct_answer": "Fatigue or discomfort",
+      "explanation": "Restless movement often signals boredom, fatigue, or discomfort, suggesting the performer may need to adjust to regain attention.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Analyze crowd behavior for effective performance adaptation"
+    },
+    {
+      "question_number": 12,
+      "question_type": "multiple_choice",
+      "question": "Which method is suggested for resetting a disengaged crowd in real time?",
+      "options": [
+        "Using humor or interactive elements",
+        "Pausing until the audience pays attention",
+        "Ignoring the crowd and speeding up",
+        "Lowering vocal volume"
+      ],
+      "correct_answer": "Using humor or interactive elements",
+      "explanation": "Incorporating humor or audience participation re-energizes and reconnects disengaged listeners effectively.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Implement strategies to re-engage a disengaged audience"
+    },
+    {
+      "question_number": 13,
+      "question_type": "short_answer",
+      "question": "Describe one way a performer can adapt their tone to align with the mood of an audience.",
+      "options": null,
+      "correct_answer": "They can shift from humorous to serious tone or vice versa depending on audience energy and emotional state.",
+      "explanation": "Matching tone to the crowd’s mood builds rapport and makes the performance more impactful and relatable.",
+      "difficulty": "Hard",
+      "learning_objective_tested": "Demonstrate ability to adapt delivery tone dynamically"
+    },
+    {
+      "question_number": 14,
+      "question_type": "multiple_choice",
+      "question": "According to the lesson, what should a performer do after collecting audience feedback and self-assessing?",
+      "options": [
+        "Set specific, measurable goals and incorporate regular practice",
+        "Ignore feedback and continue performing the same way",
+        "Focus only on increasing vocal volume",
+        "Avoid peer or mentor evaluation"
+      ],
+      "correct_answer": "Set specific, measurable goals and incorporate regular practice",
+      "explanation": "Using feedback to set actionable goals and practicing consistently supports deliberate improvement.",
+      "difficulty": "Hard",
+      "learning_objective_tested": "Plan targeted improvements based on self-reflection and feedback"
+    }
+  ],
+  "passing_score": 70,
+  "study_tips": "Review each fundamental skill area—stage presence, vocal projection, energy management—and practice applying crowd reading techniques by observing live or recorded performances. Engage in role-play exercises to practice adapting to audience cues and managing unexpected behaviors. Reflect regularly through journaling to solidify insights and plan your improvement steps."
+}

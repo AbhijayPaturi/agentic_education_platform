@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agentic-education-platform"
-version = "0.1.0"
+version = "0.2.0"
 description = "Creating a personalized education plan leveraging AI"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
     {name = "Abhijay Paturi"}
@@ -17,13 +17,18 @@ classifiers = [
     "Intended Audience :: Education",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
+    "crewai>=0.28.0",
+    "crewai-tools>=0.2.0",
+    "openai>=1.12.0",
+    "httpx>=0.28.0",
+    "urllib3>=2.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
 ]
 
 [project.optional-dependencies]
@@ -39,12 +44,12 @@ dev = [
     "ipython>=8.12.0",
 ]
 
-[tool.setuptools]
-packages = ["app", "agents", "services", "config"]
+[tool.setuptools.packages.find]
+include = ["src*"]
 
 [tool.black]
 line-length = 100
-target-version = ['py38']
+target-version = ['py310']
 include = '\.pyi?$'
 
 [tool.isort]
@@ -52,15 +57,31 @@ profile = "black"
 line_length = 100
 
 [tool.mypy]
-python_version = "3.8"
+python_version = "3.10"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = false
 disallow_incomplete_defs = false
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["src/tests"]
 python_files = "test_*.py"
 python_classes = "Test*"
 python_functions = "test_*"
-addopts = "-v --cov=app --cov=agents --cov=services --cov=config --cov-report=term-missing"
+pythonpath = ["."]
+addopts = "-v --cov=src --cov-report=term-missing --cov-config=pyproject.toml"
+
+[tool.coverage.run]
+omit = ["src/tests/*", "src/tests/**/*", "src/config/*", "src/app/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]

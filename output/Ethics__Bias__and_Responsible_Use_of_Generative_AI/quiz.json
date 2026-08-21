@@ -1,0 +1,195 @@
+{
+  "topic": "Ethics, Bias, and Responsible Use of Generative AI",
+  "quiz_type": "summative",
+  "total_points": 100,
+  "time_limit_minutes": 75,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "multiple_choice",
+      "question": "What is the primary ethical concern when deploying generative AI systems?",
+      "options": [
+        "Maximizing profit",
+        "Ensuring fairness and avoiding harm",
+        "Increasing model size",
+        "Improving user interface"
+      ],
+      "correct_answer": "Ensuring fairness and avoiding harm",
+      "explanation": "The primary ethical concern is to ensure fairness, avoid harm, and consider the broader societal impact of deploying AI systems.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Foundational concepts of AI ethics"
+    },
+    {
+      "question_number": 2,
+      "question_type": "true_false",
+      "question": "Bias in AI always originates from the data used to train the model. True or False?",
+      "options": null,
+      "correct_answer": "False",
+      "explanation": "Bias can originate from multiple sources including data, model design, and user interaction, not just training data.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Sources of bias"
+    },
+    {
+      "question_number": 3,
+      "question_type": "multiple_choice",
+      "question": "Which principle emphasizes that AI should be designed to respect human rights and dignity?",
+      "options": [
+        "Transparency",
+        "Accountability",
+        "Respect for human autonomy",
+        "Fairness"
+      ],
+      "correct_answer": "Respect for human autonomy",
+      "explanation": "Respect for human autonomy refers to designing AI systems that uphold human rights and dignity.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Core principles of AI ethics"
+    },
+    {
+      "question_number": 4,
+      "question_type": "short_answer",
+      "question": "Name one strategy to mitigate bias in generative AI systems.",
+      "options": null,
+      "correct_answer": "Data augmentation or diverse training data or bias correction techniques",
+      "explanation": "Mitigation strategies include data augmentation, diverse training data, and bias correction techniques to reduce bias.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Bias mitigation strategies"
+    },
+    {
+      "question_number": 5,
+      "question_type": "true_false",
+      "question": "Regulation can play a crucial role in ensuring responsible AI use. True or False?",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "Regulation provides legal frameworks and standards that promote responsible AI development and deployment.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Regulatory issues"
+    },
+    {
+      "question_number": 6,
+      "question_type": "multiple_choice",
+      "question": "What societal impact is associated with unchecked generative AI deployment?",
+      "options": [
+        "Economic inequality",
+        "Improved education access",
+        "Enhanced creativity",
+        "Reduced energy consumption"
+      ],
+      "correct_answer": "Economic inequality",
+      "explanation": "Unchecked AI deployment can contribute to economic inequality by disproportionately benefiting certain groups.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Societal impacts"
+    },
+    {
+      "question_number": 7,
+      "question_type": "multiple_choice",
+      "question": "Which approach is important for inclusive design of AI systems?",
+      "options": [
+        "Excluding minority groups",
+        "Engaging diverse stakeholders",
+        "Maximizing speed of deployment",
+        "Reducing transparency"
+      ],
+      "correct_answer": "Engaging diverse stakeholders",
+      "explanation": "Inclusive design requires engaging diverse stakeholders to ensure broad representation and fairness.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Inclusive design and stakeholder engagement"
+    },
+    {
+      "question_number": 8,
+      "question_type": "short_answer",
+      "question": "What is one ethical stewardship role for developers of generative AI?",
+      "options": null,
+      "correct_answer": "Ensuring transparency and accountability or prioritizing user safety",
+      "explanation": "Developers have ethical stewardship roles such as ensuring transparency, accountability, and prioritizing user safety.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Ethical stewardship roles"
+    },
+    {
+      "question_number": 9,
+      "question_type": "multiple_choice",
+      "question": "What does transparency in AI entail?",
+      "options": [
+        "Hiding data sources",
+        "Clear communication about how AI decisions are made",
+        "Reducing model complexity",
+        "Increasing data volume"
+      ],
+      "correct_answer": "Clear communication about how AI decisions are made",
+      "explanation": "Transparency involves clear communication on how AI models make decisions to build trust and accountability.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Core principles of AI ethics"
+    },
+    {
+      "question_number": 10,
+      "question_type": "true_false",
+      "question": "All biases in AI systems can be completely eliminated. True or False?",
+      "options": null,
+      "correct_answer": "False",
+      "explanation": "While bias can be mitigated, it is impossible to completely eliminate all bias in AI systems.",
+      "difficulty": "Hard",
+      "learning_objective_tested": "Bias mitigation expectations"
+    },
+    {
+      "question_number": 11,
+      "question_type": "multiple_choice",
+      "question": "Which regulatory framework specifically addresses AI accountability?",
+      "options": [
+        "GDPR",
+        "AI Act (EU)",
+        "HIPAA",
+        "CCPA"
+      ],
+      "correct_answer": "AI Act (EU)",
+      "explanation": "The AI Act (EU) is a comprehensive regulatory framework focusing on AI accountability and risk management.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Regulatory issues"
+    },
+    {
+      "question_number": 12,
+      "question_type": "short_answer",
+      "question": "Identify a societal challenge posed by generative AI.",
+      "options": null,
+      "correct_answer": "Misinformation or job displacement or privacy invasion",
+      "explanation": "Generative AI poses challenges such as misinformation, job displacement, and privacy invasion.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Societal impacts"
+    },
+    {
+      "question_number": 13,
+      "question_type": "multiple_choice",
+      "question": "What ethical framework focuses on the greatest good for the greatest number?",
+      "options": [
+        "Deontology",
+        "Utilitarianism",
+        "Virtue Ethics",
+        "Ethical Relativism"
+      ],
+      "correct_answer": "Utilitarianism",
+      "explanation": "Utilitarianism prioritizes the greatest good for the greatest number, a key framework in ethics.",
+      "difficulty": "Hard",
+      "learning_objective_tested": "Ethical frameworks"
+    },
+    {
+      "question_number": 14,
+      "question_type": "true_false",
+      "question": "Inclusive AI design can help reduce bias and increase fairness. True or False?",
+      "options": null,
+      "correct_answer": "True",
+      "explanation": "Inclusive design practices help reduce bias and promote fairness by considering diverse perspectives.",
+      "difficulty": "Easy",
+      "learning_objective_tested": "Inclusive design and stakeholder engagement"
+    },
+    {
+      "question_number": 15,
+      "question_type": "short_answer",
+      "question": "What does 'accountability' mean in the context of generative AI?",
+      "options": null,
+      "correct_answer": "Being responsible for AI outcomes or taking ownership of AI impacts",
+      "explanation": "Accountability means taking responsibility for the outcomes and impacts of AI systems.",
+      "difficulty": "Medium",
+      "learning_objective_tested": "Core principles of AI ethics"
+    }
+  ],
+  "passing_score": 70,
+  "study_tips": "Focus on the core principles of ethics in AI, understand different sources and mitigation of bias, review case studies on societal impacts, study relevant regulations and ethical frameworks, and practice explaining key concepts clearly."
+}

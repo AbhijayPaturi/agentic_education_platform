@@ -1,0 +1,101 @@
+{
+  "topic": "Core Generative Models: GANs, VAEs, and Diffusion Models",
+  "videos": [
+    {
+      "title": "Generative Adversarial Networks (GANs) Explained: Theory and Architecture",
+      "description": "An introductory overview of GANs covering the adversarial training framework, roles of generator and discriminator, and common challenges like mode collapse. Suitable for beginners to build foundational understanding.",
+      "estimated_duration": "20 minutes",
+      "difficulty_level": "Beginner",
+      "rationale": "Selected to introduce learners to GAN basics early, matching lesson 1 objectives and concepts with clear explanations and visual diagrams.",
+      "key_topics_covered": [
+        "Generative modeling overview",
+        "Adversarial training setup",
+        "Generator and discriminator roles",
+        "Minimax optimization",
+        "Mode collapse and stability issues"
+      ],
+      "suggested_viewing_order": 1,
+      "hypothetical_url": "https://www.youtube.com/watch?v=GANIntro12345"
+    },
+    {
+      "title": "Variational Autoencoders (VAEs): Intuition, Mathematics, and Implementation",
+      "description": "Detailed explanation of VAE architecture including latent variable modeling, variational inference, ELBO objective, and reparameterization trick. Includes step-by-step mathematical derivation and simple coding snippets for implementation.",
+      "estimated_duration": "35 minutes",
+      "difficulty_level": "Intermediate",
+      "rationale": "Provides a deeper dive suitable for learners moving beyond basics, aligning with lesson 2's emphasis on mathematical foundations and coding demonstrations.",
+      "key_topics_covered": [
+        "Autoencoder architecture",
+        "Latent variable models",
+        "Variational inference and ELBO",
+        "Encoder-decoder framework",
+        "Reparameterization trick"
+      ],
+      "suggested_viewing_order": 2,
+      "hypothetical_url": "https://www.youtube.com/watch?v=VAEDeepDive56789"
+    },
+    {
+      "title": "Diffusion Models for Generative AI: Principles and Recent Breakthroughs",
+      "description": "Comprehensive coverage of diffusion model theory including the forward noising process, reverse sampling, score matching, and examples of high-fidelity image generation. Visual animations illustrate diffusion steps clearly.",
+      "estimated_duration": "40 minutes",
+      "difficulty_level": "Intermediate",
+      "rationale": "Helps learners understand the emerging area of diffusion models with animations and research highlights, key for lesson 3 content.",
+      "key_topics_covered": [
+        "Diffusion and denoising processes",
+        "Forward noising and reverse sampling",
+        "Score matching and likelihood optimization",
+        "Continuous vs discrete diffusion",
+        "Applications in image and audio generation"
+      ],
+      "suggested_viewing_order": 3,
+      "hypothetical_url": "https://www.youtube.com/watch?v=DiffusionModels2024"
+    },
+    {
+      "title": "Comparing Generative Models: GANs vs VAEs vs Diffusion Models",
+      "description": "Critical analysis comparing architecture, training challenges, output quality, computational efficiency, and appropriate use cases for GANs, VAEs, and Diffusion Models. Uses charts and real-world examples.",
+      "estimated_duration": "25 minutes",
+      "difficulty_level": "Intermediate",
+      "rationale": "To synthesize understanding across the models, this video supports lesson 4's comparative analysis and evaluation objectives.",
+      "key_topics_covered": [
+        "Differences in model objectives",
+        "Training challenges and solutions",
+        "Quality vs diversity trade-offs",
+        "Computational complexity",
+        "Use case suitability"
+      ],
+      "suggested_viewing_order": 4,
+      "hypothetical_url": "https://www.youtube.com/watch?v=CompareGenModels8910"
+    },
+    {
+      "title": "Hands-on Coding Tutorial: Training GANs, VAEs and Diffusion Models from Scratch",
+      "description": "Step-by-step coding guide to implement and train basic GANs, VAEs, and Diffusion Models using PyTorch/TensorFlow. Covers data preprocessing, architecture setup, training loops, and evaluation metrics.",
+      "estimated_duration": "1 hour 15 minutes",
+      "difficulty_level": "Advanced",
+      "rationale": "Supports the practical application objective of lesson 5 through detailed hands-on implementation tutorials.",
+      "key_topics_covered": [
+        "Model coding",
+        "Data preprocessing",
+        "Training monitoring",
+        "Evaluation metrics (FID, ELBO)",
+        "Hyperparameter tuning"
+      ],
+      "suggested_viewing_order": 5,
+      "hypothetical_url": "https://www.youtube.com/watch?v=GenModelsCodingLab4321"
+    },
+    {
+      "title": "Innovations in Generative Models: Hybrid Approaches and Future Trends",
+      "description": "Explores emerging hybrid generative models combining GANs, VAEs, and Diffusion models, including VAE-GANs and score-based GANs. Discusses strengths, limitations, and promising research directions.",
+      "estimated_duration": "30 minutes",
+      "difficulty_level": "Advanced",
+      "rationale": "Ideal for learners ready to evaluate and create novel approaches, matching lesson 6's emphasis on critical evaluation and hybrid model design.",
+      "key_topics_covered": [
+        "Hybrid model strategies",
+        "Failure modes",
+        "Research trends",
+        "Future directions"
+      ],
+      "suggested_viewing_order": 6,
+      "hypothetical_url": "https://www.youtube.com/watch?v=HybridGenModelsFuture"
+    }
+  ],
+  "viewing_guide": "Begin with the introductory video on GANs to build a foundational grasp of generative adversarial concepts. Proceed to the VAE and Diffusion Model videos for deeper theoretical insights and mathematical understanding. Follow up with the comparative analysis video to synthesize and contrast the three core types. Then, dive into the hands-on coding tutorial for practical implementation skills. Finally, watch the innovations video to explore cutting-edge hybrid models and future research directions. Since these videos are hypothetical, learners should use the provided titles and topics as search keywords on reputable educational channels such as '3Blue1Brown', 'DeepLearningAI', 'Two Minute Papers', or university lecture playlists on YouTube. Supplement viewing with active note-taking, pausing for reflection on complex concepts, and coding along with example notebooks when possible."
+}

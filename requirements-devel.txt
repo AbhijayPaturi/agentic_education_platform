@@ -1,10 +1,25 @@
-# Development dependencies
+# Development Dependencies
+# ========================
+# Include all production dependencies
+-r requirements.txt
+
+# Testing Framework
 pytest>=7.4.0
 pytest-cov>=4.1.0
+pytest-mock>=3.12.0
 pytest-asyncio>=0.21.0
+
+# Code Quality
 black>=23.0.0
 flake8>=6.0.0
 mypy>=1.0.0
 isort>=5.12.0
+pylint>=3.0.0
+
+# Development Tools
 pre-commit>=3.5.0
 ipython>=8.12.0
+ipdb>=0.13.13
+
+# Type Stubs
+types-requests>=2.31.0

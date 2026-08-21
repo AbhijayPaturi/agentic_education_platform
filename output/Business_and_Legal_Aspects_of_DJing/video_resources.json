@@ -1,0 +1,84 @@
+{
+  "topic": "Business and Legal Aspects of DJing",
+  "videos": [
+    {
+      "title": "Legal Foundations for DJs: Copyrights and Licensing Explained",
+      "description": "This beginner-level video introduces key legal concepts relevant to DJs, including copyright basics, different types of music licenses such as ASCAP and BMI, public performance rights, and the importance of legal knowledge in music performances. Real-world examples illustrate issues DJs face with copyright and licensing.",
+      "estimated_duration": "25 minutes",
+      "difficulty_level": "Beginner",
+      "rationale": "Selected to provide an essential introduction to legal terms and concepts that every DJ should understand before performing or distributing music.",
+      "key_topics_covered": [
+        "Copyright basics",
+        "Music licensing types",
+        "Public performance rights",
+        "Fair use and sampling",
+        "Legal importance for DJs"
+      ],
+      "suggested_viewing_order": 1,
+      "hypothetical_url": "https://www.youtube.com/watch?v=legaldj101"
+    },
+    {
+      "title": "DJ Contracts Demystified: What You Need to Know",
+      "description": "This intermediate video analyzes typical DJ contracts, highlighting critical clauses like payment terms, cancellation policies, and liabilities. It covers contract structure, negotiation tips, and common red flags to watch out for, helping DJs better understand their legal obligations and rights.",
+      "estimated_duration": "30 minutes",
+      "difficulty_level": "Intermediate",
+      "rationale": "Chosen to help learners analyze and interpret contracts, a vital skill for responsibly managing bookings and professional engagements.",
+      "key_topics_covered": [
+        "DJ contract types",
+        "Key contractual clauses",
+        "Negotiation basics",
+        "Common pitfalls"
+      ],
+      "suggested_viewing_order": 2,
+      "hypothetical_url": "https://www.youtube.com/watch?v=djcontracts202"
+    },
+    {
+      "title": "Navigating Music Licensing for DJs: Practical Steps for Legal Performance",
+      "description": "Focused on applying licensing knowledge, this intermediate video explains how to obtain the necessary performance licenses, clarifies roles of venues vs DJs, and covers implications for online streaming and recorded sets. It discusses best compliance practices and legal risks of unlicensed shows.",
+      "estimated_duration": "35 minutes",
+      "difficulty_level": "Intermediate",
+      "rationale": "Provides a practical guide to ensure DJs stay legally compliant with music usage during live and online performances.",
+      "key_topics_covered": [
+        "Performance licenses",
+        "Venue vs DJ licensing roles",
+        "Online streaming considerations",
+        "Compliance best practices"
+      ],
+      "suggested_viewing_order": 3,
+      "hypothetical_url": "https://www.youtube.com/watch?v=licensingdj303"
+    },
+    {
+      "title": "Branding and Marketing Strategies for DJs: Building Your Professional Presence",
+      "description": "This video targets intermediate to advanced viewers, exploring ways to create a personal brand, utilize social media effectively, expand network connections, merchandise offerings, and build a professional DJ portfolio for business growth.",
+      "estimated_duration": "40 minutes",
+      "difficulty_level": "Intermediate",
+      "rationale": "Selected for its focus on business growth and professional development beyond legalities, complementing prior lessons with essential marketing insights.",
+      "key_topics_covered": [
+        "Personal branding",
+        "Social media marketing",
+        "Networking strategies",
+        "Merchandising",
+        "Portfolio development"
+      ],
+      "suggested_viewing_order": 4,
+      "hypothetical_url": "https://www.youtube.com/watch?v=brandingdj404"
+    },
+    {
+      "title": "Financial & Legal Planning for DJs: Crafting a Sustainable Career",
+      "description": "An advanced video guiding DJs through financial management including tax responsibilities, business structures (LLC, sole proprietorship), insurance, pricing strategies, and how to develop a comprehensive business plan incorporating legal and financial components.",
+      "estimated_duration": "50 minutes",
+      "difficulty_level": "Advanced",
+      "rationale": "Culminates learning by helping DJs apply business and legal knowledge to long-term career planning and financial sustainability.",
+      "key_topics_covered": [
+        "Accounting and tax basics",
+        "Business entity choices",
+        "Insurance and liability",
+        "Budgeting and pricing",
+        "Business planning"
+      ],
+      "suggested_viewing_order": 5,
+      "hypothetical_url": "https://www.youtube.com/watch?v=financelawdj505"
+    }
+  ],
+  "viewing_guide": "To maximize learning from these video resources, start with the beginner video to establish foundational legal knowledge. Next, watch the contract-focused video to develop skills in analyzing and negotiating DJ agreements. Proceed to licensing and compliance content to understand practical application of legal concepts during performances. Then, deepen your understanding of business growth strategies by viewing the branding and marketing video. Finally, finish with the advanced video on financial and legal planning to integrate all acquired knowledge into a sustainable DJ career plan. Note that these are hypothetical video titles and URLs designed to help you search for similar high-quality content on platforms like YouTube or professional DJ educational sites. Use the suggested key topics and difficulty levels to find videos that suit your learning pace and complement your course materials."
+}

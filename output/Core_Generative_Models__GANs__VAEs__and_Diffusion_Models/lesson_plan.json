@@ -1,0 +1,143 @@
+{
+  "topic": "Core Generative Models: GANs, VAEs, and Diffusion Models",
+  "overview": "This topic explores the fundamental concepts, architectures, and functionalities of three core generative models widely used in modern machine learning: Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and Diffusion Models. Each of these models approaches the task of generative modeling—creating new data samples that resemble a given dataset—in unique ways, suitable for diverse applications such as image synthesis, data augmentation, and unsupervised representation learning.\n\nStudents will first gain an understanding of the foundational theory behind each model type, including their probabilistic frameworks and optimization objectives. The course then delves into the architectural specifics, training procedures, and challenges such as mode collapse in GANs or posterior approximation in VAEs. Finally, the emerging field of Diffusion Models will be covered, highlighting their iterative noise-based generation process and recent successes in high-fidelity image and audio synthesis.",
+  "learning_objectives": [
+    {
+      "objective": "Explain the theoretical foundations and architecture of GANs, VAEs, and Diffusion Models",
+      "blooms_level": "Understand"
+    },
+    {
+      "objective": "Compare and contrast the mechanisms and training methods of GANs, VAEs, and Diffusion Models",
+      "blooms_level": "Analyze"
+    },
+    {
+      "objective": "Apply implementation techniques to train basic versions of GANs, VAEs, and Diffusion Models",
+      "blooms_level": "Apply"
+    },
+    {
+      "objective": "Evaluate the strengths, limitations, and practical use cases of each generative model type",
+      "blooms_level": "Evaluate"
+    },
+    {
+      "objective": "Design and propose improvements or hybrid approaches leveraging concepts from GANs, VAEs, and Diffusion Models",
+      "blooms_level": "Create"
+    }
+  ],
+  "lessons": [
+    {
+      "lesson_number": 1,
+      "title": "Introduction to Generative Modeling and GANs",
+      "learning_objective": "Explain the theoretical foundations and architecture of GANs",
+      "key_concepts": [
+        "Generative modeling overview",
+        "Adversarial training setup",
+        "Generator and discriminator roles",
+        "Minimax optimization",
+        "Mode collapse and stability challenges"
+      ],
+      "duration_minutes": 90,
+      "teaching_approach": "Lecture combined with interactive discussion; use visual diagrams to illustrate adversarial dynamics; include simple code walkthroughs to demystify GAN architecture",
+      "resources_needed": [
+        "Presentation slides",
+        "Visual diagrams of GAN architecture",
+        "Python scripts for basic GAN examples"
+      ]
+    },
+    {
+      "lesson_number": 2,
+      "title": "Variational Autoencoders: Theory and Implementation",
+      "learning_objective": "Explain the theoretical foundations and architecture of VAEs",
+      "key_concepts": [
+        "Autoencoder architecture",
+        "Latent variable models",
+        "Variational inference and ELBO",
+        "Encoder-decoder framework",
+        "Reparameterization trick"
+      ],
+      "duration_minutes": 90,
+      "teaching_approach": "Lecture with step-by-step mathematical derivation; code demonstration to implement a simple VAE; conceptual Q&A for deeper understanding",
+      "resources_needed": [
+        "Lecture notes",
+        "Jupyter notebooks with VAE implementation",
+        "Graphical illustrations of latent space sampling"
+      ]
+    },
+    {
+      "lesson_number": 3,
+      "title": "Diffusion Models: Principles and Recent Advances",
+      "learning_objective": "Explain the theoretical foundations and architecture of Diffusion Models",
+      "key_concepts": [
+        "Diffusion and denoising processes",
+        "Forward noising and reverse sampling",
+        "Score matching and likelihood optimization",
+        "Continuous vs discrete diffusion",
+        "Applications in image and audio generation"
+      ],
+      "duration_minutes": 90,
+      "teaching_approach": "Interactive lecture combined with animations to demonstrate diffusion steps; review of key research papers; guided group discussion on model intuition",
+      "resources_needed": [
+        "Visual animations of diffusion processes",
+        "Research paper summaries",
+        "Code snippets illustrating reverse process sampling"
+      ]
+    },
+    {
+      "lesson_number": 4,
+      "title": "Comparative Analysis of GANs, VAEs, and Diffusion Models",
+      "learning_objective": "Compare and contrast the mechanisms and training methods of GANs, VAEs, and Diffusion Models",
+      "key_concepts": [
+        "Differences in model objectives",
+        "Training challenges and solutions",
+        "Quality vs diversity trade-offs",
+        "Computational complexity",
+        "Use case suitability"
+      ],
+      "duration_minutes": 60,
+      "teaching_approach": "Group discussion and case study analysis; use comparative tables and charts; encourage learners to critique models based on given scenarios",
+      "resources_needed": [
+        "Comparison charts",
+        "Case studies/examples of model applications"
+      ]
+    },
+    {
+      "lesson_number": 5,
+      "title": "Hands-on Workshop: Training and Evaluating Generative Models",
+      "learning_objective": "Apply implementation techniques to train basic versions of GANs, VAEs, and Diffusion Models",
+      "key_concepts": [
+        "Model coding using deep learning frameworks",
+        "Data preprocessing for generative tasks",
+        "Training monitoring and debugging",
+        "Evaluation metrics like FID and ELBO",
+        "Hyperparameter tuning"
+      ],
+      "duration_minutes": 120,
+      "teaching_approach": "Guided coding lab; learners implement and train models on a sample dataset; iterative feedback and troubleshooting; peer review sessions",
+      "resources_needed": [
+        "Computers with Python, PyTorch or TensorFlow installed",
+        "Sample datasets (e.g., MNIST, CIFAR-10)",
+        "Pre-prepared starter code templates"
+      ]
+    },
+    {
+      "lesson_number": 6,
+      "title": "Evaluating and Innovating: Strengths, Limitations, and Hybrid Models",
+      "learning_objective": "Evaluate strengths, limitations, and propose improvements or hybrids combining GANs, VAEs, and Diffusion Models",
+      "key_concepts": [
+        "Critical evaluation methods",
+        "Common failure modes",
+        "Hybrid model strategies (e.g., VAE-GAN, score-based GANs)",
+        "Emerging research trends",
+        "Future directions in generative modeling"
+      ],
+      "duration_minutes": 60,
+      "teaching_approach": "Seminar format with student presentations; debate on model trade-offs; conceptual design challenges; collaborative brainstorming",
+      "resources_needed": [
+        "Research articles on hybrid models",
+        "Presentation tools",
+        "Framework for structured evaluation"
+      ]
+    }
+  ],
+  "assessment_strategy": "Assessment will be conducted through a combination of formative and summative approaches, including quizzes focusing on conceptual understanding after initial lessons, coding assignments to implement and train each generative model type, and a final project where learners design and propose a novel or hybrid generative model architecture. Peer review and instructor feedback will be integrated to reinforce learning and critical thinking. Practical evaluation metrics and theoretical critique will validate mastery of core concepts and application skills.",
+  "estimated_total_time": 510
+}
